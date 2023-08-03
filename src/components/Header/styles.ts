@@ -8,7 +8,7 @@ export const TopDiv = styled.header`
   justify-content: center;
   gap: 1rem;
 
-  left: 50%;
+  left: 55%;
 
   position: fixed;
 
@@ -33,7 +33,7 @@ export const SideBar = styled.aside`
   width: 480px;
   height: 100vh;
 
-  background: gray;
+  background: #f6f6f7;
 
   position: fixed;
 `;

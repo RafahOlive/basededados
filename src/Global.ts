@@ -6,5 +6,7 @@ export const GlobalStyle = createGlobalStyle`
 		padding: 0;
 		border: 0;
 		vertical-align: baseline;
+
+		font-family: 'Nunito Sans', sans-serif;
 	}
 `;
