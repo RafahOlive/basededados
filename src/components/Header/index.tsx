@@ -1,5 +1,6 @@
 // import { useState } from "react";
 // import { ReactSideBar } from "../Sidebar/ReactSideBar";
+import { NavLink } from "react-router-dom";
 import { TopDiv, MainDiv } from "./styles";
 // import { HtmlSideBar } from "../Sidebar/HtmlSideBar";
 // import { CssSideBar } from "../Sidebar/CssSideBar";
@@ -30,7 +31,11 @@ export function Header() {
         <button>Html</button>
         <button>Css</button>
         <button>JavaScript</button>
-        <button>React</button>
+        <button>
+          <NavLink to="/basededados/react">
+          React
+          </NavLink>
+          </button>
       </TopDiv>
       {/* <SideBar>
         {react && <ReactSideBar />}
