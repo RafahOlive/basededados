@@ -1,5 +1,12 @@
 import { Atom } from "@phosphor-icons/react";
-import { Line, MainDiv, MenuLinks, MenuTitle, ReactMenu, ReactTitle } from "./styles";
+import {
+  Line,
+  MainDiv,
+  MenuLinks,
+  MenuTitle,
+  ReactMenu,
+  ReactTitle,
+} from "./styles";
 
 export function ReactSideBar() {
   return (

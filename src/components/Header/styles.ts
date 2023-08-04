@@ -9,11 +9,12 @@ export const TopDiv = styled.header`
   gap: 1rem;
 
   left: 55%;
+  top: 1%;
 
   position: fixed;
 
   button {
-    background: gray;
+    background: none;
 
     width: auto;
 
@@ -25,7 +26,7 @@ export const TopDiv = styled.header`
   }
 
   button:hover {
-    background: blue;
+    color: blue;
   }
 `;
 

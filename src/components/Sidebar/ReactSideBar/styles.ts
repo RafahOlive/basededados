@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const MainDiv = styled.div`
-  margin-left: 50%;
+  /* margin-left: 50%; */
 `;
 
 export const ReactTitle = styled.div`
@@ -10,7 +10,6 @@ export const ReactTitle = styled.div`
   gap: 5px;
 
   margin-top: 1rem;
-  margin-bottom: 1rem;
 `;
 
 export const Line = styled.div`
@@ -19,6 +18,8 @@ export const Line = styled.div`
   background: lightgray;
 
   margin-right: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 `;
 
 export const ReactMenu = styled.div`
@@ -38,7 +39,15 @@ button{
 
     text-align: left;
 
+    background: none;
+
     cursor: pointer;
+
+    transition: .3s;
 }
+
+button:hover {
+    color: blue;
+  }
 `
 

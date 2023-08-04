@@ -32,11 +32,11 @@ export function Header() {
         <button>JavaScript</button>
         <button onClick={handleSetReact}>React</button>
       </TopDiv>
-      <SideBar>
+      {/* <SideBar>
         {react && <ReactSideBar />}
         {html && <HtmlSideBar />}
         {css && <CssSideBar />}
-      </SideBar>
+      </SideBar> */}
     </MainDiv>
   );
 }
