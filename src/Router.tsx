@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-// import { Header } from "./components/Header";
-import { DefaultLayout } from "./layout/default/DefaultLayout";
+import { DefaultLayout } from "./layout/DefaultLayout";
 import { HtmlSideBar } from "./components/Sidebar/HtmlSideBar";
 import { CssSideBar } from "./components/Sidebar/CssSideBar";
 import { ReactSideBar } from "./components/Sidebar/ReactSideBar";

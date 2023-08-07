@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const MainDiv = styled.div`
-  /* margin-left: 50%; */
+  margin-left: 50%;
 `;
 
 export const ReactTitle = styled.div`
