@@ -7,6 +7,7 @@ import {
   ReactMenu,
   ReactTitle,
 } from "./styles";
+import { Link } from "react-router-dom";
 
 export function ReactSideBar() {
   return (
@@ -20,8 +21,8 @@ export function ReactSideBar() {
         <Line />
         <MenuTitle>Vite</MenuTitle>
         <MenuLinks>
-          <button>Porque Vite?</button>
-          <button>Github pages</button>
+          <Link to="/basededados/react/whyvite">Porque vite?</Link>
+          <Link to="/basededados/react/whyvite">Github pages</Link>
         </MenuLinks>
       </ReactMenu>
     </MainDiv>

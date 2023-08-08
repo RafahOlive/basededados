@@ -13,10 +13,10 @@ export const TopDiv = styled.header`
 
   position: fixed;
 
-  button {
-    background: none;
+  a {
+    text-decoration: none;
 
-    width: auto;
+    color: #000;
 
     cursor: pointer;
 
@@ -25,7 +25,7 @@ export const TopDiv = styled.header`
     transition: 0.3s;
   }
 
-  button:hover {
+  a:hover {
     color: blue;
   }
 `;

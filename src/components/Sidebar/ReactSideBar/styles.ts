@@ -34,19 +34,18 @@ display: flex;
 flex-direction: column;
 gap: .5rem;
 
-button{
-    height: auto;
+a{
+    text-decoration: none;
+    color: #000;
 
     text-align: left;
-
-    background: none;
 
     cursor: pointer;
 
     transition: .3s;
 }
 
-button:hover {
+a:hover {
     color: blue;
   }
 `
