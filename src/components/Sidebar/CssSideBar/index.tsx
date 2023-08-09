@@ -15,7 +15,7 @@ export function CssSideBar() {
           <MenuTitle>Formas em CSS</MenuTitle>
           <MenuLinks>
             <Link to="/">Linha</Link>
-            <Link to="/">Circulo</Link>
+            <Link to="/">Círculo</Link>
           </MenuLinks>
 
           <Line />

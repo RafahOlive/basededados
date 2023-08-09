@@ -6,8 +6,8 @@ export function HtmlSideBar() {
     return(
         <MainDiv>
         <ReactTitle>
-          <SiHtml5 size={25} color="blue" />
-          CSS
+          <SiHtml5 size={25} color="red" />
+          HTML
         </ReactTitle>
   
         <ReactMenu>
