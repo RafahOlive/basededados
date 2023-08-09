@@ -1,4 +1,3 @@
-import { Atom } from "@phosphor-icons/react";
 import {
   Line,
   MainDiv,
@@ -6,14 +5,15 @@ import {
   MenuTitle,
   ReactMenu,
   ReactTitle,
-} from "./styles";
+} from "../styles/styles";
 import { Link } from "react-router-dom";
+import { SiReact } from "react-icons/si";
 
 export function ReactSideBar() {
   return (
     <MainDiv>
       <ReactTitle>
-        <Atom size={25} color="blue" />
+        <SiReact size={25} color="blue" />
         React
       </ReactTitle>
 
