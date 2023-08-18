@@ -4,7 +4,7 @@ import {
   MenuLinks,
   MenuTitle,
   ReactMenu,
-  ReactTitle,
+  StackTitle,
 } from "../styles/styles";
 import { Link } from "react-router-dom";
 import { SiReact } from "react-icons/si";
@@ -12,10 +12,10 @@ import { SiReact } from "react-icons/si";
 export function ReactSideBar() {
   return (
     <MainDiv>
-      <ReactTitle>
+      <StackTitle>
         <SiReact size={25} color="blue" />
         React
-      </ReactTitle>
+      </StackTitle>
 
       <ReactMenu>
         <Line />

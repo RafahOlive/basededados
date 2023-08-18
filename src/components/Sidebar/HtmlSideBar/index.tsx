@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
-import { Line, MainDiv, MenuLinks, MenuTitle, ReactMenu, ReactTitle } from "../styles/styles";
+import { Line, MainDiv, MenuLinks, MenuTitle, ReactMenu, StackTitle } from "../styles/styles";
 import { SiHtml5 } from "react-icons/si";
 
 export function HtmlSideBar() {
     return(
         <MainDiv>
-        <ReactTitle>
+        <StackTitle>
           <SiHtml5 size={25} color="red" />
           HTML
-        </ReactTitle>
+        </StackTitle>
   
         <ReactMenu>
           <Line />

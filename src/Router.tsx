@@ -17,7 +17,7 @@ export function Router() {
         <Route path="/basededados/react" element={<ReactSideBar />} />
       </Route>
 
-      <Route path="/basededados/react" element={<ReactLayout />}>
+      <Route path="/basededados" element={<ReactLayout />}>
         <Route path="/basededados/react/whyvite" element={<WhyVite />} />
       </Route>
     </Routes>

@@ -7,7 +7,7 @@ export const HeaderComponent = styled.div`
 `;
 
 export const SideBar = styled.aside`
-  width: 480px;
+  width: 20rem;
   height: 100vh;
 
   background: #f6f6f7;
@@ -18,9 +18,9 @@ export const SideBar = styled.aside`
 export const Content = styled.div`
 /* background: lightgreen; */
 
-width: 700px;
+width: 50rem;
 
 position: fixed;
-left: 35%;
+left: 25%;
 top:10%
 `

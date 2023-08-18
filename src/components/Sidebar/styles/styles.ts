@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const MainDiv = styled.div`
-  margin-left: 50%;
+  margin-left: 2rem;
 `;
 
-export const ReactTitle = styled.div`
+export const StackTitle = styled.div`
   display: flex;
   align-items: center;
   gap: 5px;
@@ -27,6 +27,8 @@ export const ReactMenu = styled.div`
 
 export const MenuTitle = styled.p`
 font-weight: bold;
+
+margin-bottom: .5rem;
 `
 
 export const MenuLinks = styled.div`

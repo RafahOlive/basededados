@@ -18,5 +18,11 @@ export function ReactLayout() {
         <Outlet />
       </Content>
     </Main>
+
+    // <Main>
+    //   <Header />
+    //   <ReactSideBar />
+    //   <Outlet />
+    // </Main>
   );
 }

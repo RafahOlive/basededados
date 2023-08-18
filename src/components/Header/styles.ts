@@ -1,9 +1,6 @@
 import styled from "styled-components";
 
-export const MainDiv = styled.main`
-`;
-
-export const TopDiv = styled.header`
+export const NavBar = styled.header`
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -28,13 +25,4 @@ export const TopDiv = styled.header`
   a:hover {
     color: blue;
   }
-`;
-
-export const SideBar = styled.aside`
-  width: 480px;
-  height: 100vh;
-
-  background: #f6f6f7;
-
-  position: fixed;
 `;
