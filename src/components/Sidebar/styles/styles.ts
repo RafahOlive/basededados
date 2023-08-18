@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
 export const MainDiv = styled.div`
-  margin-left: 2rem;
+  padding: 2rem;
 `;
 
 export const StackTitle = styled.div`
   display: flex;
   align-items: center;
   gap: 5px;
-
-  margin-top: 1rem;
+  border-bottom: 5px solid black;
+  padding: 2.5rem 2rem;
 `;
 
 export const Line = styled.div`

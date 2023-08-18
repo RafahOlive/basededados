@@ -1,0 +1,38 @@
+{
+    "paths": [
+        {
+            "name": "HTML",
+            "path": "/html",
+            "children": [
+                {
+                    "name": "div",
+                    "path": "/div"
+                },
+                {
+                    "name": "header",
+                    "path": "/header"
+                }
+            ]
+        },
+        {
+            "name": "CSS",
+            "path": "/css",
+            "children": []
+        },
+        {
+            "name": "JS",
+            "path": "/js",
+            "children": []
+        },
+        {
+            "name": "React",
+            "path": "/react",
+            "children": [
+                {
+                    "name": "Por quê Vite?",
+                    "path": "/whyvite"
+                }
+            ]
+        }
+    ]
+}

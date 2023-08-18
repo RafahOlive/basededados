@@ -1,14 +1,26 @@
 import styled from "styled-components";
 
 export const NavBar = styled.header`
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
+  width: 45ch;
+  min-height: 100vh;
+  border-right: 5px solid black;
 
-  left: 55%;
-  top: 1%;
+  nav {
+    padding: 2rem;
+  }
 
-  position: fixed;
+  .parent {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  ul li + li {
+    margin-top: 1rem;
+  }
+
+  ol {
+    padding-left: 2rem;
+  }
 
   a {
     text-decoration: none;

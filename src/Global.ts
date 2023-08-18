@@ -9,4 +9,26 @@ export const GlobalStyle = createGlobalStyle`
 
 		font-family: 'Nunito Sans', sans-serif;
 	}
+
+	.main-wrapper {
+		display: flex;
+	}
+
+	body,
+	html {
+		min-height: 100vh;
+	}
+
+	body {
+		overflow-y: hidden;
+	}
+
+	main {
+		overflow-y: auto;
+		width: 100%;
+	}
+
+	ul[role="list"] {
+		list-style: none;
+	}
 `;

@@ -1,14 +1,17 @@
-import { BrowserRouter } from "react-router-dom";
 import { GlobalStyle } from "./Global";
-import { Router } from "./Router";
+import { Routes } from "./Routes";
+import { Header } from "./components/Header";
 
 export function App() {
   return (
     <>
-      <BrowserRouter>
-        <Router />
         <GlobalStyle />
-      </BrowserRouter>
+        <div class="main-wrapper">
+          <Header />
+          <main tabindex="-1">
+            <Routes />
+          </main>
+        </div>
     </>
   );
 }
