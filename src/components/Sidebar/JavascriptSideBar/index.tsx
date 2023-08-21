@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "preact-router/match";
 import {
   Line,
   MainDiv,
@@ -10,20 +10,21 @@ import {
 import { SiJavascript } from "react-icons/si";
 export function JavascriptSideBar() {
   return (
-    <MainDiv>
-      
+    <>
       <StackTitle>
         <SiJavascript size={25} color="yellow" />
         Javascript
       </StackTitle>
 
-      <ReactMenu>
-        <Line />
-        <MenuTitle>Funções</MenuTitle>
-        <MenuLinks>
-          <Link to="/">Map</Link>
-        </MenuLinks>
-      </ReactMenu>
-    </MainDiv>
+      <MainDiv>
+        <ReactMenu>
+          <Line />
+          <MenuTitle>Funções</MenuTitle>
+          <MenuLinks>
+            <Link href="/">Map</Link>
+          </MenuLinks>
+        </ReactMenu>
+      </MainDiv>
+    </>
   );
 }
