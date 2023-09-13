@@ -13,13 +13,15 @@
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.0.10",
-    "preact": "^10.17.0",
-    "preact-router": "^4.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
+    "react-router-dom": "^6.14.2",
     "styled-components": "^6.0.5"
   },
   "devDependencies": {
-    "@prefresh/vite": "^2.4.1",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "@vitejs/plugin-react": "^4.0.3",
