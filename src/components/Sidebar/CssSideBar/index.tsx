@@ -1,4 +1,4 @@
-import { Link } from "preact-router/match";
+import { Link } from "react-router-dom";
 import {
   Line,
   MainDiv,
@@ -11,29 +11,28 @@ import { SiCss3 } from "react-icons/si";
 
 export function CssSideBar() {
   return (
-    <>
+    <MainDiv>
+      
       <StackTitle>
         <SiCss3 size={25} color="blue" />
         CSS
       </StackTitle>
 
-      <MainDiv>
-        <ReactMenu>
-          <Line />
-          <MenuTitle>Formas em CSS</MenuTitle>
-          <MenuLinks>
-            <Link href="/">Linha</Link>
-            <Link href="/">Círculo</Link>
-          </MenuLinks>
+      <ReactMenu>
+        <Line />
+        <MenuTitle>Formas em CSS</MenuTitle>
+        <MenuLinks>
+          <Link to="/">Linha</Link>
+          <Link to="/">Círculo</Link>
+        </MenuLinks>
 
-          <Line />
-          <MenuTitle>Estilização de divs</MenuTitle>
-          <MenuLinks>
-            <Link href="/">Flexbox</Link>
-            <Link href="/">Positions</Link>
-          </MenuLinks>
-        </ReactMenu>
-      </MainDiv>
-    </>
+        <Line />
+        <MenuTitle>Estilização de divs</MenuTitle>
+        <MenuLinks>
+          <Link to="/">Flexbox</Link>
+          <Link to="/">Positions</Link>
+        </MenuLinks>
+      </ReactMenu>
+    </MainDiv>
   );
 }
